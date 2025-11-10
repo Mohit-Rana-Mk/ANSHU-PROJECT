@@ -2,10 +2,10 @@
   "name": "health-gps-iot-tracker",
   "version": "1.0.0",
   "description": "A simple health tracking and GPS IoT demo website with live updates (Socket.IO), Leaflet map, and Chart.js",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "simulate": "node scripts/simulate.js"
   },
   "keywords": [
